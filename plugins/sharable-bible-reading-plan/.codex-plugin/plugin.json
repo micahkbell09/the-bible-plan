@@ -1,0 +1,18 @@
+{
+  "name": "sharable-bible-reading-plan",
+  "version": "0.1.0",
+  "description": "A personal, resumable Bible-reading plan with contextual study and private progress tracking in Google Sheets.",
+  "author": {
+    "name": "Micah Bell"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Sharable Bible Reading Plan",
+    "shortDescription": "Personal Bible reading with private progress tracking.",
+    "longDescription": "Begin or continue a flexible Bible-reading plan with concise literary, historical, cultural, and language context. Each user keeps an independent progress record in a private Google Sheet in their own Google Drive.",
+    "developerName": "Micah Bell",
+    "category": "Productivity",
+    "capabilities": ["Google Drive connection required for progress tracking"],
+    "defaultPrompt": "Use Sharable Bible Reading Plan to set up or continue my personal Bible reading plan."
+  }
+}
