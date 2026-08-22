@@ -12,10 +12,10 @@ A private-beta Codex plugin for personal, resumable Bible reading with contextua
 
 ## Install the private beta from GitHub
 
-The repository must first be published to GitHub. Then the reader can add its marketplace in Codex:
+Add this marketplace in Codex:
 
 ```powershell
-codex plugin marketplace add YOUR-GITHUB-USERNAME/sharable-bible-reading-plan
+codex plugin marketplace add micahkbell09/the-bible-plan
 ```
 
 Restart the ChatGPT desktop app, open the Plugins Directory, select the **Personal** marketplace, and install **Sharable Bible Reading Plan**.
