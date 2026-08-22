@@ -1,0 +1,12 @@
+interface:
+  display_name: "Sharable Bible Reading Plan"
+  short_description: "Personal contextual Bible plan with tracking"
+  default_prompt: "Use $sharable-bible-reading-plan to set up or continue my personal Bible reading plan."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "google-drive"
+      description: "Creates and updates a separate personal Bible progress Sheet for each user."
+      transport: "streamable_http"
+      url: "https://drive.google.com/"
